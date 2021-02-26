@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+</head>
+<body style="background-color: #697e86;color: #fff;">
+    <h1 class="display-5 text-center my-2"style="color:#fff;">LEDP Survey Form</h1>
+ <div class="text-center"> <small class="form-text text-dark">Thank you or taking the time to help us to improve the platform</small>
+    </div>
+
+    <form class="mx-5">
+    <div class="Container" style="margin: left 5px;">
+        <div class="container2">
+
+            <div class="form-group">
+                <label class="" for="name">Name</label></br>
+                <input class="form-control" type="text" id="name" placeholder="Enter your name">
+            </div><br>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="Enter your email">
+                
+            </div><br>
+
+            <div class="form-group">
+                <label for="age">Age (Optional)</label>
+                <input class="form-control" type="age" id="number" placeholder="Age">
+                
+            </div> <br>
+
+            <div class="form-group">
+                <label for="text">Which option best describes your current role?</label>
+                <input class="form-control" type="text" id="text" placeholder="Select current role">
+                
+            </div>
+
+            <div class="radio">
+                <label class="form-check-label">Would you recommand LEDP to a friend ? <br>
+                    <input type="radio" name="optradio" checked> Definitely</label>
+              </div>
+
+              <div class="form-control-radio">
+                <label><input type="radio" name="optradio"> Maybe</label>
+              </div>
+
+              <div class="form-radio">
+                <label><input type="radio" name="optradio" checked> Not sure</label>
+              </div>
+              <br>
+
+              <div class="form-control-plaintext"style="color: #fff">
+                <label>What is your favoriate feature of LEDP ?</label> <br>
+                <select>
+                    <option value="#" disabled selected hidden>Select an option</option>
+                    <option> Web design</option>
+                    <option> Graphics design</option>
+                    <option> Digital marketing</option>
+                    <option> Content writing</option>
+                </select>
+            </div> <br>
+            <div class="checkbox">
+                <label> What do you like to improve ? <small> (check all that apply)</small>  <br> <input type="checkbox" value=""> Front-end Project</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Back-end Project</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">  Data Visualization</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Challenges</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Open Source Community</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Gitter help rooms</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Videos</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> City Meetups</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Wiki</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Forum</label>
+              </div>
+              <div class="checkbox disabled">
+                <label><input type="checkbox" value="" disabled> Additional cources</label>
+              </div> <br>
+
+              <div class="form-control-plaintext">
+                <label style="color: #fff;"> Any comments or suggestions ?</label>
+                <textarea class="form-control" id="message" raw="5"> Enter your message here</textarea>
+            </div> <br>
+
+            <div class="text-center" style="background-color: #37AF65;">
+                <button class="btn btn-close-white " type="submit" >Submit</button>
+               
+            </div>
+            
+
+        </div>
+    </div>
+  
+   </form> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>
